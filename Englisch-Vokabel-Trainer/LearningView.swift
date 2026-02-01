@@ -13,8 +13,11 @@ struct LearningView: View {
     
     @State private var showTranslation: Bool = false
     
-    // LRS-friendly syllable colors
+    // LRS-friendly syllable colors (for multi-syllable words)
     private let syllableColors: [Color] = [.blue, .red, .purple]
+    
+    // Word-level colors (alternating for single-syllable words)
+    private let wordColors: [Color] = [.green, .blue]
     
     var body: some View {
         VStack(spacing: 0) {
@@ -117,9 +120,12 @@ struct LearningView: View {
     private func renderEnglishText(_ vocab: VocabularyItem) -> some View {
         if showSyllables {
             // Render with syllable separation
+            // Calculate single-word color index for each word position
+            let singleWordColorIndices = calculateSingleWordColorIndices(vocab.syllables)
+            
             VStack(spacing: 8) {
                 ForEach(vocab.syllables.indices, id: \.self) { wordIndex in
-                    renderWord(vocab.syllables[wordIndex])
+                    renderWord(vocab.syllables[wordIndex], singleWordColorIndex: singleWordColorIndices[wordIndex])
                 }
             }
         } else {
@@ -128,15 +134,38 @@ struct LearningView: View {
         }
     }
     
+    /// Calculate alternating color index for single-syllable words
+    /// Multi-syllable words don't affect the alternating sequence
+    private func calculateSingleWordColorIndices(_ syllables: [[String]]) -> [Int] {
+        var indices: [Int] = []
+        var singleWordCounter = 0
+        
+        for wordSyllables in syllables {
+            if wordSyllables.count == 1 {
+                indices.append(singleWordCounter)
+                singleWordCounter += 1
+            } else {
+                indices.append(-1) // Multi-syllable word, won't use this
+            }
+        }
+        return indices
+    }
+    
     @ViewBuilder
-    private func renderWord(_ wordSyllables: [String]) -> some View {
+    private func renderWord(_ wordSyllables: [String], singleWordColorIndex: Int) -> some View {
         HStack(spacing: showSyllables ? 4 : 0) {
-            ForEach(wordSyllables.indices, id: \.self) { index in
-                Text(wordSyllables[index])
-                    .foregroundColor(syllableColors[index % syllableColors.count])
+            ForEach(wordSyllables.indices, id: \.self) { syllableIndex in
+                // Single-syllable word: use alternating word colors (green, blue)
+                // Multi-syllable word: use syllable colors (blue, red, purple)
+                let color = wordSyllables.count == 1
+                    ? wordColors[singleWordColorIndex % wordColors.count]
+                    : syllableColors[syllableIndex % syllableColors.count]
+                
+                Text(wordSyllables[syllableIndex])
+                    .foregroundColor(color)
                 
                 // Show hyphen between syllables (only when syllable mode is on)
-                if showSyllables && index < wordSyllables.count - 1 {
+                if showSyllables && syllableIndex < wordSyllables.count - 1 {
                     Text("-")
                         .foregroundColor(.secondary)
                 }
