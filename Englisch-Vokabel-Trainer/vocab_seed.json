@@ -1,0 +1,618 @@
+[
+  {
+    "id": "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+    "english": "banana",
+    "german": "Banane",
+    "syllables": [["ba", "na", "na"]],
+    "isLearned": false
+  },
+  {
+    "id": "B2C3D4E5-F6A7-8901-BCDE-F12345678901",
+    "english": "shoe",
+    "german": "Schuh",
+    "syllables": [["shoe"]],
+    "isLearned": false
+  },
+  {
+    "id": "C3D4E5F6-A7B8-9012-CDEF-123456789012",
+    "english": "glasses",
+    "german": "Brille",
+    "syllables": [["glas", "ses"]],
+    "isLearned": false
+  },
+  {
+    "id": "D4E5F6A7-B8C9-0123-DEF1-234567890123",
+    "english": "to fall asleep",
+    "german": "einschlafen",
+    "syllables": [["to"], ["fall"], ["a", "sleep"]],
+    "isLearned": false
+  },
+  {
+    "id": "E5F6A7B8-C9D0-1234-EF12-345678901234",
+    "english": "right away",
+    "german": "sofort",
+    "syllables": [["right"], ["a", "way"]],
+    "isLearned": false
+  },
+  {
+    "id": "F6A7B8C9-D0E1-2345-F123-456789012345",
+    "english": "he has a lot to learn",
+    "german": "er hat viel zu lernen",
+    "syllables": [["he"], ["has"], ["a"], ["lot"], ["to"], ["learn"]],
+    "isLearned": false
+  },
+  {
+    "id": "A7B8C9D0-E1F2-3456-1234-567890123456",
+    "english": "to get up",
+    "german": "aufstehen",
+    "syllables": [["to"], ["get"], ["up"]],
+    "isLearned": false
+  },
+  {
+    "id": "B8C9D0E1-F2A3-4567-2345-678901234567",
+    "english": "ice-cream shop",
+    "german": "Eisdiele",
+    "syllables": [["ice"], ["cream"], ["shop"]],
+    "isLearned": false
+  },
+  {
+    "id": "C9D0E1F2-A3B4-5678-3456-789012345678",
+    "english": "It gets on my nerves!",
+    "german": "Das geht mir auf die Nerven!",
+    "syllables": [["It"], ["gets"], ["on"], ["my"], ["nerves"]],
+    "isLearned": false
+  },
+  {
+    "id": "D0E1F2A3-B4C5-6789-4567-890123456789",
+    "english": "cap",
+    "german": "Kappe",
+    "syllables": [["cap"]],
+    "isLearned": false
+  },
+  {
+    "id": "E1F2A3B4-C5D6-7890-5678-901234567890",
+    "english": "fire",
+    "german": "Feuer",
+    "syllables": [["fire"]],
+    "isLearned": false
+  },
+  {
+    "id": "F2A3B4C5-D6E7-8901-6789-012345678901",
+    "english": "to sit down",
+    "german": "sich setzen",
+    "syllables": [["to"], ["sit"], ["down"]],
+    "isLearned": false
+  },
+  {
+    "id": "A3B4C5D6-E7F8-9012-7890-123456789012",
+    "english": "part",
+    "german": "Teil",
+    "syllables": [["part"]],
+    "isLearned": false
+  },
+  {
+    "id": "B4C5D6E7-F8A9-0123-8901-234567890123",
+    "english": "to be dog-tired",
+    "german": "müde sein",
+    "syllables": [["to"], ["be"], ["dog-tired"]],
+    "isLearned": false
+  },
+  {
+    "id": "C5D6E7F8-A9B0-1234-9012-345678901234",
+    "english": "into",
+    "german": "in",
+    "syllables": [["in", "to"]],
+    "isLearned": false
+  },
+  {
+    "id": "D6E7F8A9-B0C1-2345-0123-456789012345",
+    "english": "to throw",
+    "german": "werfen",
+    "syllables": [["to"], ["throw"]],
+    "isLearned": false
+  },
+  {
+    "id": "E7F8A9B0-C1D2-3456-1234-567890123456",
+    "english": "fall over",
+    "german": "hinfallen",
+    "syllables": [["fall"], ["o", "ver"]],
+    "isLearned": false
+  },
+  {
+    "id": "F8A9B0C1-D2E3-4567-2345-678901234567",
+    "english": "a lot",
+    "german": "viel",
+    "syllables": [["a"], ["lot"]],
+    "isLearned": false
+  },
+  {
+    "id": "A9B0C1D2-E3F4-5678-3456-789012345678",
+    "english": "tail",
+    "german": "Schwanz",
+    "syllables": [["tail"]],
+    "isLearned": false
+  },
+  {
+    "id": "B0C1D2E3-F4A5-6789-4567-890123456789",
+    "english": "to chase",
+    "german": "jagen",
+    "syllables": [["to"], ["chase"]],
+    "isLearned": false
+  },
+  {
+    "id": "C1D2E3F4-A5B6-7890-5678-901234567890",
+    "english": "trick",
+    "german": "Trick",
+    "syllables": [["trick"]],
+    "isLearned": false
+  },
+  {
+    "id": "D2E3F4A5-B6C7-8901-6789-012345678901",
+    "english": "to learn",
+    "german": "lernen",
+    "syllables": [["to"], ["learn"]],
+    "isLearned": false
+  },
+  {
+    "id": "E3F4A5B6-C7D8-9012-7890-123456789012",
+    "english": "to look after",
+    "german": "aufpassen auf / betreuen",
+    "syllables": [["to"], ["look"], ["af", "ter"]],
+    "isLearned": false
+  },
+  {
+    "id": "F4A5B6C7-D8E9-0123-8901-234567890123",
+    "english": "job",
+    "german": "Job",
+    "syllables": [["job"]],
+    "isLearned": false
+  },
+  {
+    "id": "A5B6C7D8-E9F0-1234-9012-345678901234",
+    "english": "to say goodbye",
+    "german": "sich verabschieden",
+    "syllables": [["to"], ["say"], ["good", "bye"]],
+    "isLearned": false
+  },
+  {
+    "id": "B6C7D8E9-F0A1-2345-0123-456789012345",
+    "english": "own",
+    "german": "eigen",
+    "syllables": [["own"]],
+    "isLearned": false
+  },
+  {
+    "id": "C7D8E9F0-A1B2-3456-1234-567890123456",
+    "english": "to make",
+    "german": "machen",
+    "syllables": [["to"], ["make"]],
+    "isLearned": false
+  },
+  {
+    "id": "D8E9F0A1-B2C3-4567-2345-678901234567",
+    "english": "after that",
+    "german": "danach",
+    "syllables": [["af", "ter"], ["that"]],
+    "isLearned": false
+  },
+  {
+    "id": "E9F0A1B2-C3D4-5678-3456-789012345678",
+    "english": "face",
+    "german": "Gesicht",
+    "syllables": [["face"]],
+    "isLearned": false
+  },
+  {
+    "id": "F0A1B2C3-D4E5-6789-4567-890123456789",
+    "english": "to wash",
+    "german": "waschen",
+    "syllables": [["to"], ["wash"]],
+    "isLearned": false
+  },
+  {
+    "id": "A1B2C3D4-E5F6-7890-5678-901234567891",
+    "english": "everyone",
+    "german": "jeder",
+    "syllables": [["eve", "ry"], ["one"]],
+    "isLearned": false
+  },
+  {
+    "id": "B2C3D4E5-F6A7-8901-6789-012345678902",
+    "english": "hard",
+    "german": "schwer",
+    "syllables": [["hard"]],
+    "isLearned": false
+  },
+  {
+    "id": "C3D4E5F6-A7B8-9012-7890-123456789013",
+    "english": "to buy",
+    "german": "kaufen",
+    "syllables": [["to"], ["buy"]],
+    "isLearned": false
+  },
+  {
+    "id": "D4E5F6A7-B8C9-0123-8901-234567890124",
+    "english": "shop",
+    "german": "Geschäft",
+    "syllables": [["shop"]],
+    "isLearned": false
+  },
+  {
+    "id": "E5F6A7B8-C9D0-1234-9012-345678901235",
+    "english": "to be lucky",
+    "german": "Glück haben",
+    "syllables": [["to"], ["be"], ["luck", "y"]],
+    "isLearned": false
+  },
+  {
+    "id": "F6A7B8C9-D0E1-2345-0123-456789012346",
+    "english": "flute",
+    "german": "Flöte",
+    "syllables": [["flute"]],
+    "isLearned": false
+  },
+  {
+    "id": "A7B8C9D0-E1F2-3456-1234-567890123457",
+    "english": "to come out",
+    "german": "herauskommen",
+    "syllables": [["to"], ["come"], ["out"]],
+    "isLearned": false
+  },
+  {
+    "id": "B8C9D0E1-F2A3-4567-2345-678901234568",
+    "english": "to get home",
+    "german": "nach Hause kommen",
+    "syllables": [["to"], ["get"], ["home"]],
+    "isLearned": false
+  },
+  {
+    "id": "C9D0E1F2-A3B4-5678-3456-789012345679",
+    "english": "fruit",
+    "german": "Obst",
+    "syllables": [["fruit"]],
+    "isLearned": false
+  },
+  {
+    "id": "D0E1F2A3-B4C5-6789-4567-890123456780",
+    "english": "some",
+    "german": "einige",
+    "syllables": [["some"]],
+    "isLearned": false
+  },
+  {
+    "id": "E1F2A3B4-C5D6-7890-5678-901234567891",
+    "english": "salad",
+    "german": "Salat",
+    "syllables": [["sal", "ad"]],
+    "isLearned": false
+  },
+  {
+    "id": "F2A3B4C5-D6E7-8901-6789-012345678902",
+    "english": "like",
+    "german": "mögen",
+    "syllables": [["like"]],
+    "isLearned": false
+  },
+  {
+    "id": "A3B4C5D6-E7F8-9012-7890-123456789013",
+    "english": "healthy",
+    "german": "gesund",
+    "syllables": [["health", "y"]],
+    "isLearned": false
+  },
+  {
+    "id": "B4C5D6E7-F8A9-0123-8901-234567890124",
+    "english": "only",
+    "german": "nur",
+    "syllables": [["on", "ly"]],
+    "isLearned": false
+  },
+  {
+    "id": "C5D6E7F8-A9B0-1234-9012-345678901235",
+    "english": "stressful",
+    "german": "stressig",
+    "syllables": [["stress", "ful"]],
+    "isLearned": false
+  },
+  {
+    "id": "D6E7F8A9-B0C1-2345-0123-456789012346",
+    "english": "life",
+    "german": "Leben",
+    "syllables": [["life"]],
+    "isLearned": false
+  },
+  {
+    "id": "E7F8A9B0-C1D2-3456-1234-567890123457",
+    "english": "typical",
+    "german": "typisch",
+    "syllables": [["typ", "i", "cal"]],
+    "isLearned": false
+  },
+  {
+    "id": "F8A9B0C1-D2E3-4567-2345-678901234568",
+    "english": "something",
+    "german": "etwas",
+    "syllables": [["some", "thing"]],
+    "isLearned": false
+  },
+  {
+    "id": "A9B0C1D2-E3F4-5678-3456-789012345679",
+    "english": "to meet",
+    "german": "treffen",
+    "syllables": [["to"], ["meet"]],
+    "isLearned": false
+  },
+  {
+    "id": "B0C1D2E3-F4A5-6789-4567-890123456780",
+    "english": "to walk",
+    "german": "gehen",
+    "syllables": [["to"], ["walk"]],
+    "isLearned": false
+  },
+  {
+    "id": "C1D2E3F4-A5B6-7890-5678-901234567891",
+    "english": "weak",
+    "german": "schwach",
+    "syllables": [["weak"]],
+    "isLearned": false
+  },
+  {
+    "id": "D2E3F4A5-B6C7-8901-6789-012345678902",
+    "english": "to tell",
+    "german": "erzählen",
+    "syllables": [["to"], ["tell"]],
+    "isLearned": false
+  },
+  {
+    "id": "E3F4A5B6-C7D8-9012-7890-123456789013",
+    "english": "on Mondays",
+    "german": "montags",
+    "syllables": [["on"], ["Mon", "days"]],
+    "isLearned": false
+  },
+  {
+    "id": "F4A5B6C7-D8E9-0123-8901-234567890124",
+    "english": "evening",
+    "german": "Abend",
+    "syllables": [["eve", "ning"]],
+    "isLearned": false
+  },
+  {
+    "id": "A5B6C7D8-E9F0-1234-9012-345678901235",
+    "english": "in the evenings",
+    "german": "abends",
+    "syllables": [["in"], ["the"], ["eve", "nings"]],
+    "isLearned": false
+  },
+  {
+    "id": "B6C7D8E9-F0A1-2345-0123-456789012346",
+    "english": "when",
+    "german": "wenn",
+    "syllables": [["when"]],
+    "isLearned": false
+  },
+  {
+    "id": "C7D8E9F0-A1B2-3456-1234-567890123457",
+    "english": "to go to bed",
+    "german": "ins Bett gehen",
+    "syllables": [["to"], ["go"], ["to"], ["bed"]],
+    "isLearned": false
+  },
+  {
+    "id": "D8E9F0A1-B2C3-4567-2345-678901234568",
+    "english": "dinner",
+    "german": "Abendessen",
+    "syllables": [["din", "ner"]],
+    "isLearned": false
+  },
+  {
+    "id": "E9F0A1B2-C3D4-5678-3456-789012345679",
+    "english": "to have breakfast",
+    "german": "frühstücken",
+    "syllables": [["to"], ["have"], ["break", "fast"]],
+    "isLearned": false
+  },
+  {
+    "id": "F0A1B2C3-D4E5-6789-4567-890123456780",
+    "english": "scene",
+    "german": "Szene",
+    "syllables": [["scene"]],
+    "isLearned": false
+  },
+  {
+    "id": "A1B2C3D4-E5F6-7890-5678-901234567892",
+    "english": "quarter past / to",
+    "german": "Viertel nach / vor",
+    "syllables": [["quar", "ter"], ["past"], ["/"], ["to"]],
+    "isLearned": false
+  },
+  {
+    "id": "B2C3D4E5-F6A7-8901-6789-012345678903",
+    "english": "half",
+    "german": "halb",
+    "syllables": [["half"]],
+    "isLearned": false
+  },
+  {
+    "id": "C3D4E5F6-A7B8-9012-7890-123456789014",
+    "english": "o'clock",
+    "german": "Uhr",
+    "syllables": [["o", "clock"]],
+    "isLearned": false
+  },
+  {
+    "id": "D4E5F6A7-B8C9-0123-8901-234567890125",
+    "english": "time",
+    "german": "Zeit",
+    "syllables": [["time"]],
+    "isLearned": false
+  },
+  {
+    "id": "E5F6A7B8-C9D0-1234-9012-345678901236",
+    "english": "what's the time",
+    "german": "wie spät ist es",
+    "syllables": [["what's"], ["the"], ["time"]],
+    "isLearned": false
+  },
+  {
+    "id": "F6A7B8C9-D0E1-2345-0123-456789012347",
+    "english": "confused",
+    "german": "verwirrt",
+    "syllables": [["con", "fused"]],
+    "isLearned": false
+  },
+  {
+    "id": "A7B8C9D0-E1F2-3456-1234-567890123458",
+    "english": "helpless",
+    "german": "hilflos",
+    "syllables": [["help", "less"]],
+    "isLearned": false
+  },
+  {
+    "id": "B8C9D0E1-F2A3-4567-2345-678901234569",
+    "english": "freeze frame",
+    "german": "Standbild",
+    "syllables": [["freeze"], ["frame"]],
+    "isLearned": false
+  },
+  {
+    "id": "C9D0E1F2-A3B4-5678-3456-789012345680",
+    "english": "character",
+    "german": "Figur",
+    "syllables": [["char", "ac", "ter"]],
+    "isLearned": false
+  },
+  {
+    "id": "D0E1F2A3-B4C5-6789-4567-890123456781",
+    "english": "to wait (for)",
+    "german": "warten (auf)",
+    "syllables": [["to"], ["wait"]],
+    "isLearned": false
+  },
+  {
+    "id": "E1F2A3B4-C5D6-7890-5678-901234567892",
+    "english": "to be late",
+    "german": "zu spät sein",
+    "syllables": [["to"], ["be"], ["late"]],
+    "isLearned": false
+  },
+  {
+    "id": "F2A3B4C5-D6E7-8901-6789-012345678903",
+    "english": "to come back",
+    "german": "zurückkommen",
+    "syllables": [["to"], ["come"], ["back"]],
+    "isLearned": false
+  },
+  {
+    "id": "A3B4C5D6-E7F8-9012-7890-123456789014",
+    "english": "mouth",
+    "german": "Mund",
+    "syllables": [["mouth"]],
+    "isLearned": false
+  },
+  {
+    "id": "B4C5D6E7-F8A9-0123-8901-234567890125",
+    "english": "in the street",
+    "german": "auf der Straße",
+    "syllables": [["in"], ["the"], ["street"]],
+    "isLearned": false
+  },
+  {
+    "id": "C5D6E7F8-A9B0-1234-9012-345678901236",
+    "english": "often",
+    "german": "oft",
+    "syllables": [["of", "ten"]],
+    "isLearned": false
+  },
+  {
+    "id": "D6E7F8A9-B0C1-2345-0123-456789012347",
+    "english": "lots (of)",
+    "german": "viele",
+    "syllables": [["lots"]],
+    "isLearned": false
+  },
+  {
+    "id": "E7F8A9B0-C1D2-3456-1234-567890123458",
+    "english": "busy",
+    "german": "beschäftigt",
+    "syllables": [["bus", "y"]],
+    "isLearned": false
+  },
+  {
+    "id": "F8A9B0C1-D2E3-4567-2345-678901234569",
+    "english": "to put",
+    "german": "legen / stellen",
+    "syllables": [["to"], ["put"]],
+    "isLearned": false
+  },
+  {
+    "id": "A9B0C1D2-E3F4-5678-3456-789012345680",
+    "english": "usually",
+    "german": "normalerweise",
+    "syllables": [["u", "su", "al", "ly"]],
+    "isLearned": false
+  },
+  {
+    "id": "B0C1D2E3-F4A5-6789-4567-890123456781",
+    "english": "to lose",
+    "german": "verlieren",
+    "syllables": [["to"], ["lose"]],
+    "isLearned": false
+  },
+  {
+    "id": "C1D2E3F4-A5B6-7890-5678-901234567892",
+    "english": "never",
+    "german": "nie",
+    "syllables": [["ne", "ver"]],
+    "isLearned": false
+  },
+  {
+    "id": "D2E3F4A5-B6C7-8901-6789-012345678903",
+    "english": "of course",
+    "german": "natürlich",
+    "syllables": [["of"], ["course"]],
+    "isLearned": false
+  },
+  {
+    "id": "E3F4A5B6-C7D8-9012-7890-123456789014",
+    "english": "very",
+    "german": "sehr",
+    "syllables": [["ve", "ry"]],
+    "isLearned": false
+  },
+  {
+    "id": "F4A5B6C7-D8E9-0123-8901-234567890125",
+    "english": "head",
+    "german": "Kopf",
+    "syllables": [["he", "ad"]],
+    "isLearned": false
+  },
+  {
+    "id": "A5B6C7D8-E9F0-1234-9012-345678901236",
+    "english": "always",
+    "german": "immer",
+    "syllables": [["al", "ways"]],
+    "isLearned": false
+  },
+  {
+    "id": "B6C7D8E9-F0A1-2345-0123-456789012347",
+    "english": "to know",
+    "german": "wissen / kennen",
+    "syllables": [["to"], ["know"]],
+    "isLearned": false
+  },
+  {
+    "id": "C7D8E9F0-A1B2-3456-1234-567890123458",
+    "english": "to start",
+    "german": "anfangen",
+    "syllables": [["to"], ["start"]],
+    "isLearned": false
+  },
+  {
+    "id": "D8E9F0A1-B2C3-4567-2345-678901234569",
+    "english": "past",
+    "german": "nach",
+    "syllables": [["past"]],
+    "isLearned": false
+  }
+]
