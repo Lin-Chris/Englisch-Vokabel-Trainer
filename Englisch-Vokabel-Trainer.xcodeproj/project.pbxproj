@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AA34CD352F2FA6BF005FDD3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA34CD1F2F2FA6BD005FDD3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA34CD262F2FA6BD005FDD3D;
+			remoteInfo = "Englisch-Vokabel-Trainer";
+		};
+		AA34CD3F2F2FA6BF005FDD3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA34CD1F2F2FA6BD005FDD3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA34CD262F2FA6BD005FDD3D;
+			remoteInfo = "Englisch-Vokabel-Trainer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA34CD272F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Englisch-Vokabel-Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA34CD342F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Englisch-Vokabel-TrainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA34CD3E2F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Englisch-Vokabel-TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA34CD292F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Englisch-Vokabel-Trainer";
+			sourceTree = "<group>";
+		};
+		AA34CD372F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Englisch-Vokabel-TrainerTests";
+			sourceTree = "<group>";
+		};
+		AA34CD412F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Englisch-Vokabel-TrainerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA34CD242F2FA6BD005FDD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34CD312F2FA6BF005FDD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34CD3B2F2FA6BF005FDD3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA34CD1E2F2FA6BD005FDD3D = {
+			isa = PBXGroup;
+			children = (
+				AA34CD292F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer */,
+				AA34CD372F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests */,
+				AA34CD412F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests */,
+				AA34CD282F2FA6BD005FDD3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA34CD282F2FA6BD005FDD3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA34CD272F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer.app */,
+				AA34CD342F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests.xctest */,
+				AA34CD3E2F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA34CD262F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA34CD482F2FA6BF005FDD3D /* Build configuration list for PBXNativeTarget "Englisch-Vokabel-Trainer" */;
+			buildPhases = (
+				AA34CD232F2FA6BD005FDD3D /* Sources */,
+				AA34CD242F2FA6BD005FDD3D /* Frameworks */,
+				AA34CD252F2FA6BD005FDD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA34CD292F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer */,
+			);
+			name = "Englisch-Vokabel-Trainer";
+			packageProductDependencies = (
+			);
+			productName = "Englisch-Vokabel-Trainer";
+			productReference = AA34CD272F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA34CD332F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA34CD4B2F2FA6BF005FDD3D /* Build configuration list for PBXNativeTarget "Englisch-Vokabel-TrainerTests" */;
+			buildPhases = (
+				AA34CD302F2FA6BF005FDD3D /* Sources */,
+				AA34CD312F2FA6BF005FDD3D /* Frameworks */,
+				AA34CD322F2FA6BF005FDD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA34CD362F2FA6BF005FDD3D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA34CD372F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests */,
+			);
+			name = "Englisch-Vokabel-TrainerTests";
+			packageProductDependencies = (
+			);
+			productName = "Englisch-Vokabel-TrainerTests";
+			productReference = AA34CD342F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA34CD3D2F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA34CD4E2F2FA6BF005FDD3D /* Build configuration list for PBXNativeTarget "Englisch-Vokabel-TrainerUITests" */;
+			buildPhases = (
+				AA34CD3A2F2FA6BF005FDD3D /* Sources */,
+				AA34CD3B2F2FA6BF005FDD3D /* Frameworks */,
+				AA34CD3C2F2FA6BF005FDD3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA34CD402F2FA6BF005FDD3D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA34CD412F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests */,
+			);
+			name = "Englisch-Vokabel-TrainerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Englisch-Vokabel-TrainerUITests";
+			productReference = AA34CD3E2F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA34CD1F2F2FA6BD005FDD3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					AA34CD262F2FA6BD005FDD3D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AA34CD332F2FA6BF005FDD3D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AA34CD262F2FA6BD005FDD3D;
+					};
+					AA34CD3D2F2FA6BF005FDD3D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AA34CD262F2FA6BD005FDD3D;
+					};
+				};
+			};
+			buildConfigurationList = AA34CD222F2FA6BD005FDD3D /* Build configuration list for PBXProject "Englisch-Vokabel-Trainer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA34CD1E2F2FA6BD005FDD3D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA34CD282F2FA6BD005FDD3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA34CD262F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer */,
+				AA34CD332F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerTests */,
+				AA34CD3D2F2FA6BF005FDD3D /* Englisch-Vokabel-TrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA34CD252F2FA6BD005FDD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34CD322F2FA6BF005FDD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34CD3C2F2FA6BF005FDD3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA34CD232F2FA6BD005FDD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34CD302F2FA6BF005FDD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA34CD3A2F2FA6BF005FDD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA34CD362F2FA6BF005FDD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA34CD262F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer */;
+			targetProxy = AA34CD352F2FA6BF005FDD3D /* PBXContainerItemProxy */;
+		};
+		AA34CD402F2FA6BF005FDD3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA34CD262F2FA6BD005FDD3D /* Englisch-Vokabel-Trainer */;
+			targetProxy = AA34CD3F2F2FA6BF005FDD3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA34CD462F2FA6BF005FDD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA34CD472F2FA6BF005FDD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA34CD492F2FA6BF005FDD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pen---Paper.Englisch-Vokabel-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA34CD4A2F2FA6BF005FDD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pen---Paper.Englisch-Vokabel-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA34CD4C2F2FA6BF005FDD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pen---Paper.Englisch-Vokabel-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Englisch-Vokabel-Trainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Englisch-Vokabel-Trainer";
+			};
+			name = Debug;
+		};
+		AA34CD4D2F2FA6BF005FDD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pen---Paper.Englisch-Vokabel-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Englisch-Vokabel-Trainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Englisch-Vokabel-Trainer";
+			};
+			name = Release;
+		};
+		AA34CD4F2F2FA6BF005FDD3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pen---Paper.Englisch-Vokabel-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Englisch-Vokabel-Trainer";
+			};
+			name = Debug;
+		};
+		AA34CD502F2FA6BF005FDD3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NB8N8WP7HZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Pen---Paper.Englisch-Vokabel-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Englisch-Vokabel-Trainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA34CD222F2FA6BD005FDD3D /* Build configuration list for PBXProject "Englisch-Vokabel-Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA34CD462F2FA6BF005FDD3D /* Debug */,
+				AA34CD472F2FA6BF005FDD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA34CD482F2FA6BF005FDD3D /* Build configuration list for PBXNativeTarget "Englisch-Vokabel-Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA34CD492F2FA6BF005FDD3D /* Debug */,
+				AA34CD4A2F2FA6BF005FDD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA34CD4B2F2FA6BF005FDD3D /* Build configuration list for PBXNativeTarget "Englisch-Vokabel-TrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA34CD4C2F2FA6BF005FDD3D /* Debug */,
+				AA34CD4D2F2FA6BF005FDD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA34CD4E2F2FA6BF005FDD3D /* Build configuration list for PBXNativeTarget "Englisch-Vokabel-TrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA34CD4F2F2FA6BF005FDD3D /* Debug */,
+				AA34CD502F2FA6BF005FDD3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA34CD1F2F2FA6BD005FDD3D /* Project object */;
+}
